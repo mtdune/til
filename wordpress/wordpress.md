@@ -15,3 +15,23 @@ Shifter
 一般的な静的化プラグイン
 
 - <https://its-office.jp/blog/wordpress/2018/03/04/wp-static.html>
+
+## VCCW
+
+VCCW 起動
+
+```bash
+cd ./vm/vccw
+vagrant up
+```
+
+VCCW 終了
+
+```bash
+vagrant halt
+```
+
+リンク
+
+- <https://qiita.com/h6akh/items/0197194b68c5852c7ab0>
+- <https://qiita.com/mapyo/items/58be41707b909cb71e8f>

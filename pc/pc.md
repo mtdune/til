@@ -22,6 +22,11 @@
 - WinMerge
 - WinSCP
 
+WinMerge でのサブフォルダ比較
+
+- <http://ryoichi0102.hatenablog.com/entry/2014/06/30/203530>
+  - diff -r で足りそう
+
 ## macOS
 
 - Docker for Mac
