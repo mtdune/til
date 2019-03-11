@@ -7,3 +7,4 @@
 - wiki の til をこちらに移す（該当記事は削除）
 - iPhone のメモも統合したい
   - macOS のメモ帳で同期すれば MacBook で編集できる？
+- Google Drive の整理
