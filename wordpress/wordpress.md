@@ -35,3 +35,23 @@ vagrant halt
 
 - <https://qiita.com/h6akh/items/0197194b68c5852c7ab0>
 - <https://qiita.com/mapyo/items/58be41707b909cb71e8f>
+
+## デバッグ
+
+強制的に画面出力する場合はスーパーグローバル変数に直接代入する。
+
+```php
+<?php
+
+define('WP_USE_THEMES', true);
+
+$_GET['p'] = 5702;
+$_SERVER['SERVER_PROTOCOL'] = 'HTTP/1.1';
+$_SERVER['REQUEST_METHOD'] = 'GET';
+$_SERVER['REQUEST_URI'] = '/?p=5702';
+$_SERVER['HTTP_HOST'] = 'www.example.com';
+
+require_once('wp-load.php');
+wp();
+require_once( ABSPATH . WPINC . '/template-loader.php');
+```
