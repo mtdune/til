@@ -1,3 +1,3 @@
 # Redmine
 
-- https://lychee-redmine.jp/cloud/
+- <https://lychee-redmine.jp/cloud/>
