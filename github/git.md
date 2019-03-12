@@ -27,9 +27,12 @@ HEAD
 
 - <http://sohtaro.com/blog/2017/06/11/git-author-email-replace/>
 
-fetch して merge する。この場合 `--allow-unrelated-histories` が必要。
+強制 push する。表記は origin/master ではなく origin master で正しい。
 
-- `git fetch && git merge origin/master --allow-unrelated-histories`
+- `git push --force-with-lease origin master`
+
+関連
+
 - <https://qiita.com/takanatsu/items/fc89de9bd11148da1438>
 
 備考
