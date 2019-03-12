@@ -46,3 +46,8 @@ HEAD
 備考
 
 - github に複数のメールアドレスを登録している場合 primary 以外でも問題なく、草が生える
+
+## 強制 pull
+
+- `git fetch origin master`
+- `git reset --hard origin/master`
