@@ -8,6 +8,7 @@
 - `git config user.email [foobar@example.com]`
 - `git config user.name`
 - `git config user.name [foobar]`
+- `git config --local --list`
 
 ログを確認する。
 

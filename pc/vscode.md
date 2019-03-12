@@ -1,3 +1,6 @@
 # VSCode
 
 ## Extentions
+
+- Prettier
+- markdownlint
