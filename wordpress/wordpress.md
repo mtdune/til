@@ -1,5 +1,11 @@
 # WordPress
 
+## DISALLOWED PLUGINS
+
+WPEngine による許可できない WordPress プラグイン一覧表
+
+- <https://wpengine.com/support/disallowed-plugins/>
+
 ## 静的化
 
 Shifter
@@ -55,3 +61,24 @@ require_once('wp-load.php');
 wp();
 require_once( ABSPATH . WPINC . '/template-loader.php');
 ```
+
+## 作業前後の処理
+
+WordMove での push や WordPress 上での作業を遮らないようにするため、作業アカウントではなく apache ユーザに統一する。
+
+```bash
+sudo chown -R apache:apache /home/user_name/public_html/blog_name
+sudo find /home/user_name/public_html/blog_name/ -type f -exec chmod 664 {} \;
+sudo find /home/user_name/public_html/blog_name/ -type d -exec chmod 775 {} \;
+```
+
+## プラグイン開発
+
+- [サイトの拡張性を飛躍的に高める WordPressプラグイン開発のバイブル](https://www.amazon.co.jp/dp/4797373520/)
+  - VCCW 開発者による著書
+
+## テーマ開発
+
+2019 年は underscores 以外の基礎となるテンプレートを調べる。
+
+- [Theme Check](https://ja.wordpress.org/plugins/theme-check/)

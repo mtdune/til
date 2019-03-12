@@ -8,3 +8,4 @@
 - iPhone のメモも統合したい
   - macOS のメモ帳で同期すれば MacBook で編集できる？
 - Google Drive の整理
+- すべての端末の git の local 設定を見直す 2019-03-12
