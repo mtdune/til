@@ -51,3 +51,18 @@ iMac の場合は SSD 交換を検討する
 
 - <https://www.landerblue.co.jp/blog/?p=43061>
 - <https://www.skd.ne.jp/wp/>
+
+### macOS クリーンインストール手順
+
+OS インストール
+
+1. USB メモリに Mojave 起動ディスク作成
+1. SMC リセット
+1. NVRAM/PRAM リセット
+1. Option キーを押しながら再起動
+
+環境構築
+
+1. アプリケーションのインストール
+1. リモート・リポジトリの Clone
+1. SFTP 接続先の設定
