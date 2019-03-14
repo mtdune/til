@@ -27,6 +27,20 @@ WinMerge でのサブフォルダ比較
 - <http://ryoichi0102.hatenablog.com/entry/2014/06/30/203530>
   - diff -r で足りそう
 
+### Windows ターミナル環境
+
+試す
+
+- <https://cmder.net/>
+- <https://hyper.is/>
+
+SSH クライアント
+
+- RLogin
+- Poderosa
+- TeraTerm
+- PuTTY
+
 ## macOS
 
 - Docker for Mac
