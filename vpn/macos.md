@@ -37,7 +37,7 @@ Microsoft Remote Desktop の手順
 
 基本的に macOS の標準機能で VPN 接続が可能。
 
-- https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup
+- <https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup>
   - ただし Network の Option タブ Send all traffic over VPN connection は無効にする
 - DNS サーバの登録は不要
 - macOS のネットワーク優先度は wifi が上位 VPN が下位とする
@@ -48,9 +48,11 @@ App Store にある Microsoft Remote Desktop 8 や Microsoft Remote Desktop 10 �
 
 - Parallels Client
 
+また、環境によっては IP アドレスが切り替わるため hosts ファイルの切り替えが必要。
+
 参考 URL
 
-- https://qiita.com/hidecha/items/33624f6ae57d41f3cd86
+- <https://qiita.com/hidecha/items/33624f6ae57d41f3cd86>
 
 ## リモート側ルータ設定（自宅）
 

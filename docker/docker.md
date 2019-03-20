@@ -39,17 +39,32 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
 ```
 
-この yaml ファイルで State が Restarting のまま Up しそうにない場合、既存のコンテナやイメージを参照している可能性があるので、それらを一度削除したほうがよいです。
+この yaml ファイルで State が Restarting のまま Up しそうにない場合、既存のコンテナやイメージを参照している可能性があるので、それらを一度削除します。
 
-- コンテナの確認
-  - `docker container ls -a`
-- ネットワークの確認
-  - `docker network ls`
-- 起動していないコンテナの一括削除
-  - `docker container prune`
-- イメージの削除
-  - `docker images`
-  - `docker rmi IMAGE-NAME`
+コンテナの確認
+
+```bash
+docker container ls -a
+```
+
+ネットワークの確認
+
+```bash
+docker network ls
+```
+
+起動していないコンテナの一括削除
+
+```bash
+docker container prune
+```
+
+イメージの削除
+
+```bash
+docker images
+docker rmi IMAGE-NAME
+```
 
 参考
 
