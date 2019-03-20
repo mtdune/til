@@ -12,15 +12,19 @@
 
 まず、ローカルの該当ディレクトリに移動して local の設定を確認する。
 
-- `git config user.email`
-- `git config user.email foobar@example.com`
-- `git config user.name`
-- `git config user.name foobar`
-- `git config --local --list`
+```bash
+git config user.email
+git config user.email foobar@example.com
+git config user.name
+git config user.name foobar
+git config --local --list
+```
 
 ログを確認する。
 
-- `git log --pretty=full`
+```bash
+git log --pretty=full
+```
 
 一括置換する。
 
@@ -37,7 +41,9 @@ HEAD
 
 強制 push する。表記は origin/master ではなく origin master で正しい。
 
-- `git push --force-with-lease origin master`
+```bash
+git push --force-with-lease origin master`
+```
 
 関連
 
@@ -49,5 +55,24 @@ HEAD
 
 ## 強制 pull
 
-- `git fetch origin master`
-- `git reset --hard origin/master`
+```bash
+git fetch origin master
+git reset --hard origin/master
+```
+
+## 最新のコミットの修正
+
+Commiter の修正
+
+```bash
+git commit --amend
+```
+
+Author の修正
+
+```bash
+git commit --amend --author="foobar <foobar@example.com>"
+git rebase --continue
+git log --pretty=full
+git push origin master -f
+```
