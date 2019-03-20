@@ -21,6 +21,7 @@
 - VSCode
 - WinMerge
 - WinSCP
+- nodist … Natural node.js and npm version manager for windows.
 
 WinMerge でのサブフォルダ比較
 
