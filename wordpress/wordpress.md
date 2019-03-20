@@ -1,5 +1,13 @@
 # WordPress
 
+## 確認事項
+
+- SSL
+- 静的化
+- プラグインは基本的に使用しない
+- DB バックアップの方法（メール転送付きのバックアップ用のプラグインか cron で dump するか）
+- デプロイ方法
+
 ## DISALLOWED PLUGINS
 
 WPEngine による許可できない WordPress プラグイン一覧表
