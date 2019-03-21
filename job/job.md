@@ -2,4 +2,4 @@
 
 ## 副業系サイト
 
-- https://www.codeal.work/
+- <https://www.codeal.work/>
