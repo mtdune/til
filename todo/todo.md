@@ -17,7 +17,7 @@
 
 ## RPG
 
-大文字小文字があると Windows 環境で困ることがある。
+git リポジトリに大文字小文字があると Windows 環境で困ることがある。
 
 - /world_settings/deities.md
 - /world_settings/elven_kingdoms.md

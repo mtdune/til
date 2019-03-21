@@ -56,6 +56,7 @@ SSH クライアント
 - Slack
 - VSCode
 - Sourcetree
+- anyenv + nodenv
 
 Subversion の GUI が必要な場合（基本的には CUI で足りるはず）
 
