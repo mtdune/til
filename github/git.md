@@ -76,3 +76,14 @@ git rebase --continue
 git log --pretty=full
 git push origin master -f
 ```
+
+## ローカル・リポジトリを GitHub に push する
+
+- GitHub にリポジトリを作成する
+- ローカルの設定を確認、修正する
+
+```bash
+git config --local --list
+```
+
+- GitHub のリポジトリに push する
