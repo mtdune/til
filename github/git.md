@@ -79,11 +79,53 @@ git push origin master -f
 
 ## ローカル・リポジトリを GitHub に push する
 
+### push
+
+（コミットログなしの）ソースコードだけならば zip 形式で圧縮すれば Google Drive などで共有できる。
+
 - GitHub にリポジトリを作成する
-- ローカルの設定を確認、修正する
+- ローカルの設定を確認、必要に応じて修正する
 
 ```bash
 git config --local --list
 ```
 
 - GitHub のリポジトリに push する
+
+### リポジトリの zip 圧縮
+
+基本的に git archive コマンドで zip 形式で圧縮する。利点は zip に含むファイルやディレクトリを操作できること。
+
+リポジトリの直下に .gitattributes をおく。下記は記入例。
+
+```bash
+# comment
+.DS_Store export-ignore
+.git/ export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.vscode/ export-ignore
+foo/bar/ export-ignore
+foo.php export-ignore
+bar.php export-ignore
+```
+
+下記のコマンドで zip ファイルをつくる。
+
+```bash
+git archive --format=zip HEAD > ../foo.zip
+```
+
+注意点
+
+- 上記の場合 HEAD 指定なので .gitattributes を修正した場合は git commit が必要
+- <https://git-scm.com/docs/gitattributes>
+- .gitattributes で改行コードの制御も可能できる（必要な場合）
+
+.gitignore 同様にファイル名の記述については下記を参照のこと
+
+- [.gitignore ファイルに記述するパターンの規則](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-%E5%A4%89%E6%9B%B4%E5%86%85%E5%AE%B9%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%B8%E3%81%AE%E8%A8%98%E9%8C%B2#r_ignoring)
+
+### 関連
+
+- <https://github.com/github/gitignore>
