@@ -129,3 +129,24 @@ git archive --format=zip HEAD > ../foo.zip
 ### 関連
 
 - <https://github.com/github/gitignore>
+
+### master ブランチ以外のブランチの push
+
+```bash
+git remote add origin https://github.com/foo/bar.git
+git push -u origin master
+
+git push origin master:develop # 誤
+git push origin develop:master # 誤
+git push origin develop:develop # 正 git push origin local:remote
+git push origin master:master # 正
+```
+
+### GitHub のブランチの削除
+
+- master 以外のブランチの場合、ブラウザ上でブランチを表示させて、ゴミ箱のアイコンを押下する
+- master ブランチの場合
+
+```bash
+git push -f origin master
+```
