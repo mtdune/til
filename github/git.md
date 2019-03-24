@@ -120,7 +120,7 @@ git archive --format=zip HEAD > ../foo.zip
 
 - 上記の場合 HEAD 指定なので .gitattributes を修正した場合は git commit が必要
 - <https://git-scm.com/docs/gitattributes>
-- .gitattributes で改行コードの制御も可能できる（必要な場合）
+- .gitattributes で改行コードの制御も可能（必要な場合）
 
 .gitignore 同様にファイル名の記述については下記を参照のこと
 
