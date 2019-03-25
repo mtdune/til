@@ -48,6 +48,10 @@ App Store にある Microsoft Remote Desktop 8 や Microsoft Remote Desktop 10 �
 
 - Parallels Client
 
+参考 URL
+
+- <https://qiita.com/hidecha/items/33624f6ae57d41f3cd86>
+
 ### hosts ファイルの書き換え
 
 環境によっては IP アドレスが切り替わるため hosts ファイルの切り替えが必要。そのため VPN の起動と終了と同時に hosts を書き換えるとよい。
@@ -76,10 +80,6 @@ ap_name=`networksetup -getairportnetwork en0`
 ap_name=${ap_name##*: }
 echo $ap_name
 ```
-
-参考 URL
-
-- <https://qiita.com/hidecha/items/33624f6ae57d41f3cd86>
 
 ## リモート側ルータ設定（自宅）
 
