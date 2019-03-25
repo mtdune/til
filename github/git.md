@@ -42,7 +42,7 @@ HEAD
 強制 push する。表記は origin/master ではなく origin master で正しい。
 
 ```bash
-git push --force-with-lease origin master`
+git push --force-with-lease origin master
 ```
 
 関連
