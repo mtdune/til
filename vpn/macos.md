@@ -48,11 +48,38 @@ App Store にある Microsoft Remote Desktop 8 や Microsoft Remote Desktop 10 �
 
 - Parallels Client
 
-また、環境によっては IP アドレスが切り替わるため hosts ファイルの切り替えが必要。
-
 参考 URL
 
 - <https://qiita.com/hidecha/items/33624f6ae57d41f3cd86>
+
+### hosts ファイルの書き換え
+
+環境によっては IP アドレスが切り替わるため hosts ファイルの切り替えが必要。そのため VPN の起動と終了と同時に hosts を書き換えるとよい。
+
+hosts ファイル書き換え付き VPN 開始スクリプト
+
+```bash
+#!/bin/bash
+networksetup -connectpppoeservice 'FOOBAR'
+sudo sed -i '.backup' -e 's/^192.168.0./XXX.XXX.XXX./g' /private/etc/hosts
+```
+
+hosts ファイル書き換え付き VPN 終了スクリプト
+
+```bash
+#!/bin/bash
+scutil --nc stop 'FOOBAR'
+sudo sed -i '.backup' -e 's/^XXX.XXX.XXX./192.168.0./g' /private/etc/hosts
+```
+
+ap 確認シェルスクリプト（バッククォーテーション記号はコマンド実行のために必須）
+
+```bash
+#!/bin/bash
+ap_name=`networksetup -getairportnetwork en0`
+ap_name=${ap_name##*: }
+echo $ap_name
+```
 
 ## リモート側ルータ設定（自宅）
 
