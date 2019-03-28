@@ -7,6 +7,8 @@
 
 ## PHP 開発環境構築
 
+thread safe 版 php.exe をインストールする。
+
 - <https://www.elp.co.jp/staffblog/?p=5620>
 
 ## WordPress 開発環境構築
