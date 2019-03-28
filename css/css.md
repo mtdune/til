@@ -20,3 +20,7 @@
 ## z-index property
 
 - <https://speakerdeck.com/sadnessojisan/qin-nixiang-katutenandasofalsez-indexha>
+
+## Chrome で不要な CSS/JavaScript を洗い出す
+
+- <https://www.ecomottblog.com/?p=609>
