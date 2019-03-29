@@ -47,6 +47,10 @@ SSH クライアント
 - [Windows で使えるターミナルとシェルのまとめ - Qiita](https://qiita.com/Ted-HM/items/9a60f6fcf74bbd79a904)
 - <https://qiita.com/murachi1208/items/d6e4ce7ba75f1625fe51>
 
+WSL: Windows Subsystem for Linux ベースにしたほうがよいかもしれない。
+
+- WSL + Hyper
+
 ## macOS
 
 - Docker for Mac
