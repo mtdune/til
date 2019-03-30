@@ -118,6 +118,7 @@ Netlify に載せる。
 - 新規ドメイン名 @gmail の新規の Google アカウント登録（完全に切り離す）
 - Google Analytics 導入
 - まとめサイト申請
+  - <https://5ch.net/matome.html>
 - heroku の hobby plan 7 USD/Month かどこか git push でデプロイできるところよい
 - SSH 接続できれば Codeship の鍵を登録することで Codeship 経由で github からデプロイできるらしい
 - <https://qiita.com/junpeko5/items/087704082df9912cb4fd>
