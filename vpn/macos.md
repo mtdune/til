@@ -35,6 +35,14 @@ Microsoft Remote Desktop の手順
 
 ## リモート側 MacBook の設定
 
+準備
+
+- VPN アカウント名
+- VPN パスワード
+- IPsec 事前共有鍵
+- macOS 新規ユーザ登録
+  - VPN 専用の hosts がある場合は開発用アカウントと VPN 作業用アカウントをわける
+
 基本的に macOS の標準機能で VPN 接続が可能。
 
 - <https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/5.Mac_OS_X_L2TP_Client_Setup>
