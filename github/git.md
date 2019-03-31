@@ -1,5 +1,23 @@
 # git
 
+## git 未管理状態からの GitHub 登録
+
+1. GitHub に git リポジトリを作成する
+1. ローカルの該当ディレクトリで下記の操作を行う
+
+```bash
+git init
+git config --local --list
+git config user.email foobar@example.com
+git config user.name foobar
+git config --local --list
+git add -A
+git status
+git commit -m 'first commit'
+git remote add origin https://github.com/foobar/repo.git
+git push -u origin master
+```
+
 ## ファイル名に大文字小文字が混在したファイルの扱い
 
 未コミット状態でありながら Windows 上で該当のファイルが表示されない場合、ファイル名に大文字小文字が混在したファイルが commit されていることが多いです。
