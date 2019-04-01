@@ -90,3 +90,21 @@ sudo find /home/user_name/public_html/blog_name/ -type d -exec chmod 775 {} \;
 2019 年は underscores 以外の基礎となるテンプレートを調べる。
 
 - [Theme Check](https://ja.wordpress.org/plugins/theme-check/)
+
+## WordPress アップデート作業
+
+### バックアップ作業
+
+- 物理ディレクトリの複製
+- DB ダンプ
+- パーミッションの修正
+
+### アップデートに失敗した場合
+
+- バックアップしたディレクトリを公開ディレクトリに変更する
+- パーミッションの修正
+- DB のリストア
+
+```bash
+mysql -u root -p DATABASE_NAME < DATABASE_NAME.sql
+```
