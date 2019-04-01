@@ -28,3 +28,7 @@ git リポジトリに大文字小文字があると Windows 環境で困るこ�
 - /world_settings/sorcerer_kings.md
 - /world_settings/summary.md
 - /world_settings/west_frontier.md
+
+### 名前リスト
+
+- <https://www.behindthename.com/names/list>
