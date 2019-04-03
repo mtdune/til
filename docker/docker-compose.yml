@@ -1,3 +1,4 @@
+# http://docs.docker.jp/compose/compose-file.html
 version: "2"
 services:
   db:
@@ -15,7 +16,10 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:latest
+    # image: wordpress:latest
+    build:
+      context: .
+      dockerfile: dockerfile-wp
     container_name: wp
     links:
       - db
