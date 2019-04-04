@@ -170,3 +170,14 @@ git push origin master:master # 正
 ```bash
 git push -f origin master
 ```
+
+## GitHub のリポジトリを clone する
+
+```bash
+mkdir foo
+cd ./foo
+git init
+git config user.email foobar@example.com
+git config user.name foobar
+git clone https://github.com/foobar/foo.git
+```
