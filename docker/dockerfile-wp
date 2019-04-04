@@ -1,0 +1,43 @@
+FROM wordpress:latest
+
+# via https://qiita.com/haessal/items/0a83fe9fa1ac00ed5ee9
+ENV DEBIAN_FRONTEND noninteractive
+ENV DEBCONF_NOWARNINGS yes
+
+# apt-get
+RUN apt-get update -y && apt-get upgrade -y
+RUN apt-get install -y git
+RUN apt-get install -y autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+RUN apt-get install -y sshpass # for Wordmove
+RUN apt-get install -y net-tools # for netstat command
+RUN apt-get clean
+
+# rbenv
+RUN git clone -q https://github.com/rbenv/rbenv.git /root/.rbenv
+RUN git clone -q https://github.com/rbenv/ruby-build.git /root/.rbenv/plugins/ruby-build
+RUN /root/.rbenv/plugins/ruby-build/install.sh
+ENV PATH /root/.rbenv/bin:$PATH
+
+# Added to /root/.bashrc file
+RUN echo 'eval "$(rbenv init -)"' >> /root/.bashrc
+
+# ruby and gem
+RUN rbenv install -f 2.4.2 > /dev/null 2>&1
+RUN rbenv rehash
+RUN rbenv global 2.4.2
+
+# source command: reload .bashrc file
+# via https://qiita.com/lilacs/items/4d4e3f169a04560dee76
+# RUN mv /bin/sh /bin/sh_tmp && ln -s /bin/bash /bin/sh
+# RUN source ~/.bashrc
+# RUN rm /bin/sh && mv /bin/sh_tmp /bin/sh
+
+# Wordmove
+# https://qiita.com/SLEAZOIDS/items/15d4eff43248861cfaad
+# RUN gem install wordmove
+RUN . /root/.bashrc; gem install -N wordmove
+
+# wp-cli
+RUN curl -s https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar > /root/wp-cli.phar
+RUN chmod +x /root/wp-cli.phar
+RUN mv /root/wp-cli.phar /usr/local/bin/wp
