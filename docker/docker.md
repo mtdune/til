@@ -71,6 +71,18 @@ docker images
 docker rmi IMAGE-NAME
 ```
 
+すべての未使用コンテナの削除
+
+```bash
+docker system prune
+```
+
+すべての未使用イメージの削除
+
+```bash
+docker system prune -a
+```
+
 参考
 
 - <https://qiita.com/mom0tomo/items/7e611ac829863d4c5c82>
