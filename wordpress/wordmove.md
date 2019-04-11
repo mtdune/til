@@ -11,7 +11,7 @@ wp search-replace 'https://SERVER-URL' 'http://localhost:8000' --dry-run
 wp search-replace 'https://SERVER-URL' 'http://localhost:8000'
 ```
 
-### 2. サーバ側の作業
+### 2. staging サーバ側の作業
 
 ```bash
 su -
@@ -72,6 +72,14 @@ mysqldump -uroot -p YOUR-WORDPRESS-DB > ./wordpress_dump.sql
 ### 7. production 環境に push する
 
 ```bash
+su -
+chown -R WORDMOVE-SSH-USER:WORDMOVE-SSH-USER /path/to/wordpress-directory
+find WORDPRESS-DIR -type f -exec chmod 664 {} ¥;
+find WORDPRESS-DIR -type d -exec chmod 775 {} ¥;
+exit
+```
+
+```bash
 wordmove push -e production --all --no-db
 wordmove push -e production --db
 
@@ -80,5 +88,9 @@ su -
 cd /path/to/wordpress-directory/wp-content
 vi dump.sql # Replace utf8mb4 to utf8
 mysql -uroot -p DATABASE-NAME < dump.sql
+
+chown -R apache:apache /path/to/wordpress-directory
 exit
 ```
+
+- MySQL 5.5 未満のサーバの場合 DB の push に失敗する。この際 local のドメイン名が変更されたままになるため wp search-replace で再度 http://localhost:8000 に置換する必要がある

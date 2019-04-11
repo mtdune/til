@@ -1,5 +1,18 @@
 # Docker
 
+## コンテナのログを local に出力する
+
+相対的パスのために `$PWD` を指定する。
+
+```bash
+    volumes:
+      - "$PWD:/var/www/html"
+      - "$PWD/.docker/backup:/tmp/backup"
+      - "$PWD/.docker/log:/tmp/log"
+```
+
+- <https://qiita.com/mom0tomo/items/7e611ac829863d4c5c82>
+
 ## 基本
 
 - <https://ottan.xyz/docker-for-mac-wordpress-4711/>
