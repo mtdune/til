@@ -2,10 +2,10 @@
 
 軽量 JavaScript テンプレートライブラリ。気軽に導入でき view を JavaScript のコードから切り離せるところがよい。
 
-- https://qiita.com/saoshi/items/54081b598a6f0c8ce5bf
-- https://qiita.com/sassy_watson/items/f9947624876bf75a9eff
-- https://handlebarsjs.com/
-- https://github.com/wycats/handlebars.js
+- <https://qiita.com/saoshi/items/54081b598a6f0c8ce5bf>
+- <https://qiita.com/sassy_watson/items/f9947624876bf75a9eff>
+- <https://handlebarsjs.com/>
+- <https://github.com/wycats/handlebars.js>
 
 ```HTML
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" charset="utf-8"></script>

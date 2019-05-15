@@ -2,8 +2,8 @@
 
 管理ツールに diff ツールを組み込む場合にちょうどよい。
 
-- https://github.com/cemerick/jsdifflib
-- http://cemerick.github.io/jsdifflib/demo.html
+- <https://github.com/cemerick/jsdifflib>
+- <http://cemerick.github.io/jsdifflib/demo.html>
 
 基本的にはデモ画面のコードで普通に動く。
 

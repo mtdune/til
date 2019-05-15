@@ -2,15 +2,15 @@
 
 管理画面で、簡易 HTML エディタを使用する場合に有用。
 
-- https://github.com/ajaxorg/ace
-- https://qiita.com/tags/ace
+- <https://github.com/ajaxorg/ace>
+- <https://qiita.com/tags/ace>
 
 注意事項
 
 - なぜか HTML ファイルの先頭に DOCTYPE があると、正しく動作しない。解決方法が見つからなかったため DOCTYPE をコメントアウトして使用します。（例えば DOCTYPE を含む HTML 全体ではなく、部分的なテキストならば、この問題は起きないかもしれない）
 - body 要素を overflow:hidden; して、ブラウザのウィンドウのスクロールバーを消したほうが UX が高まる。この場合、フォームのボタン等は position:absolute; や fixed 等で、浮かせたほうがよい
 - 使用するのは下記にある src-min 版
-  - https://github.com/ajaxorg/ace-builds
+  - <https://github.com/ajaxorg/ace-builds>
 
 ```HTML
 <!-- load emmet code and snippets compiled for browser -->
