@@ -6,6 +6,8 @@ PHP で外部サーバのファイルを（ウェブサーバを介さず）直�
 1. visudo で apache ユーザに /usr/bin/scp コマンドのみを許可する
 1. apache ユーザの鍵認証を設定する
 
+この他に rsync を exec 関数で実行する方法でもよい。
+
 ## apache ユーザの鍵認証設定
 
 1. sudo cat /etc/passwd で apache ユーザのホームディレクトリを確認する
