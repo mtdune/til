@@ -1,5 +1,9 @@
 # PvP Battle
 
+## まろん杯
+
+- <https://pvp.hatenablog.jp/entry/great-league-ranking-201905>
+
 ## 戦術
 
 - 定番（ランダムに優位）
