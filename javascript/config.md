@@ -7,7 +7,8 @@ function fetchContentSettings() {
   let settings = {
     foo: 'bar',
     hoge: {},
-    fuga: {}
+    fuga: {},
+    fruit: ['apple', 'banana', 'pineapple']
   };
 
   return settings;
