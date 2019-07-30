@@ -10,3 +10,10 @@
 
 - <https://kakaku.com/pc/mac-note-pc/itemlist.aspx>
 - <https://www.apple.com/jp/shop/refurbished/mac/macbook-pro>
+
+## US キーボードでの日本語切り替え
+
+Karabiner
+
+- <https://pqrs.org/osx/karabiner/>
+- App Store では公開されていない

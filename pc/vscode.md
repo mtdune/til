@@ -27,3 +27,7 @@ thread safe 版 php.exe をインストールする。
 "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
 "window.title": "${dirty}${rootName}${separator}${activeEditorLong}",
 ```
+
+## Remote Development
+
+- <https://www.publickey1.jp/blog/19/visual_studio_code_135remote_development.html>

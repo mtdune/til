@@ -17,3 +17,17 @@
 ## パフォーマンス改善
 
 - [ページ上でずっと動いている setTimeout, setInterval, requestAnimationFrame を見つけてパフォーマンス改善する](http://efcl.info/2017/12/07/capture-living-timer/)
+
+## 値渡しと参照渡しの違い
+
+- <https://qiita.com/Yametaro/items/21f7b1a4ae09f16f323e>
+
+## 特定クラスへのイベント設定 jQuery 版
+
+```JavaScript
+$('.className').each(function(){
+    $(this).on('click',funtion(){
+        // 要素ごとの処理
+    });
+});
+```
