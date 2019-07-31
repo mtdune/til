@@ -41,3 +41,22 @@ P.116
 
 - <https://qiita.com/zurazurataicho/items/e40fd4a95a6dbba8e9e4>
 - <https://qiita.com/sola-msr/items/5e5131d1a0f80b6f1303>
+
+## root ユーザとして実行するスクリプト
+
+```php
+<?php
+$messages_path = '/var/log/messages';
+exec(sprintf("sudo -u root tail %s", $messages_path), $output);
+foreach ($output as $str) {
+  echo $str . "\n";
+}
+```
+
+```bash
+apache  ALL=(ALL) NOPASSWD: ALL
+```
+
+```bash
+sudo -u root hoge
+```

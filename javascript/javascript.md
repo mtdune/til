@@ -31,3 +31,10 @@ $('.className').each(function(){
     });
 });
 ```
+
+## jQuery リプレース作業
+
+単に jQuery からヴァニラにすると、属人性の高いコードになる恐れがあるため superagent などが使えるならば、使ったほうがよい。
+
+- <http://youmightnotneedjquery.com/>
+- superagent
