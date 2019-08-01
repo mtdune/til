@@ -53,7 +53,7 @@ vagrant up
 VCCW による WordPress 管理画面
 
 - <http://vccw.dev/wp-admin/>
-- VCCW の WordPress 管理画面 ID/PASS は admin/admin
+- VCCW の WordPress 管理画面 ID/PASSWORD は admin/admin
 
 VM の停止
 
@@ -115,7 +115,7 @@ Vagrantfile ファイルのあるディレクトリ
 
 ### pull のテスト
 
-まず /vagrant に移動する。最初に pull を完全な状態にする
+まず /vagrant に移動する。最初に pull を完全な状態にする。
 
 ```bash
 wordmove pull -t
@@ -156,7 +156,7 @@ sudo tar czvf /home/username/backup.tar.gz /home/username/public_html/foo
 cp -a ./foo ./foo_old
 du -s ./foo/
 du -s ./foo_old/
-diff -r ./foo/ ./foo_old/>
+diff -r ./foo/ ./foo_old/
 ```
 
 DB ダンプ
