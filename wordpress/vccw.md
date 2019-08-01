@@ -26,7 +26,7 @@
 
 hosts ファイルの編集
 
-> C:\Windows\System32\drivers\etc\hosts
+- C:\Windows\System32\drivers\etc\hosts
 
 ```bash
 192.168.33.10 vccw.dev # for WordPress
@@ -35,19 +35,19 @@ hosts ファイルの編集
 作業ディレクトリ作成
 
 ```bash
-D:\vm\vccw>
+mkdir ./vccw
 ```
 
 box ファイルの追加操作
 
 ```bash
-D:\vm\vccw>vagrant box add vccw-team/xenial64
+vagrant box add vccw-team/xenial64
 ```
 
 vagrant 起動
 
 ```bash
-D:\vm\vccw>vagrant up
+vagrant up
 ```
 
 VCCW による WordPress 管理画面
@@ -152,11 +152,11 @@ wordmove pull -e production --all
 まず、物理ファイルのバックアップ
 
 ```bash
-sudo tar czvf /home/username/backup.tar.gz /home/username/public_html/hoge
-cp -a ./hoge ./hoge_old
-du -s ./hoge/
-du -s ./hoge_old/
-diff -r ./hoge/ ./hoge_old/>
+sudo tar czvf /home/username/backup.tar.gz /home/username/public_html/foo
+cp -a ./foo ./foo_old
+du -s ./foo/
+du -s ./foo_old/
+diff -r ./foo/ ./foo_old/>
 ```
 
 DB ダンプ
@@ -178,9 +178,9 @@ wordmove push -e staging --all
 push 後、ディレクトリとファイルのパーミッションを統一する
 
 ```bash
-sudo chown -R apache:apache /home/username/public_html/hoge
-sudo find /home/username/public_html/hoge/ -type f -exec chmod 664 {} \;
-sudo find /home/username/public_html/hoge/ -type d -exec chmod 775 {} \;
+sudo chown -R apache:apache /home/username/public_html/foo
+sudo find /home/username/public_html/foo/ -type f -exec chmod 664 {} \;
+sudo find /home/username/public_html/foo/ -type d -exec chmod 775 {} \;
 ```
 
 ## VCCW での DB dump ファイルの検証
@@ -192,11 +192,11 @@ sudo find /home/username/public_html/hoge/ -type d -exec chmod 775 {} \;
 dump ファイルを import する。
 
 ```bash
-$ mysql -uroot wordpress < hoge.sql
+$ mysql -uroot wordpress < foo.sql
 $ wp db reset
 Are you sure you want to reset the 'wordpress' database? [y/n] y
 Success: Database reset.
-$ wp db import hoge.sql
-Success: Imported from 'hoge.sql'.
+$ wp db import foo.sql
+Success: Imported from 'foo.sql'.
 $ wp search-replace --recurse-objects http://public.url http://local.url
 ```
