@@ -5,5 +5,9 @@
 ## diff
 
 ```bash
-diff -r /Volumes/foo /Volumes/bar
+diff -r /Volumes/foo/hoge /Volumes/bar/hoge
 ```
+
+## SSH
+
+- 鍵を登録するためには ssh-copy-id コマンドを使う
