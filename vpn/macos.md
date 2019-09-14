@@ -1,4 +1,4 @@
-# VPN
+# VPN for macOS
 
 ## 接続テストの順番
 
