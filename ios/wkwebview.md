@@ -31,3 +31,9 @@
 ## クラッシュ対策
 
 - <https://smrtbeat.com/purchase/>
+
+## その他
+
+Apple 審査リジェクト対策チェックリスト
+
+- <https://qiita.com/yukitoto/items/b7ec39c4c7080b9884de>
