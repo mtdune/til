@@ -24,3 +24,7 @@
 ## Chrome で不要な CSS/JavaScript を洗い出す
 
 - <https://www.ecomottblog.com/?p=609>
+
+## macOS Catalina のヒラギノフォント表示問題
+
+- <https://chaika.hatenablog.com/entry/2019/10/29/083000>
