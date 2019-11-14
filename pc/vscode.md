@@ -4,6 +4,20 @@
 
 - Prettier
 - markdownlint
+- EditorConfig for VS Code
+- Lint の類
+- コード整形
+- encdetect jp … 日本語文字コード判定機能。文字コードに UTF-8 以外のファイルがある場合に使用する
+- Auto Rename Tag
+- Code Runner … その箇所のコードのみを実行する拡張機能
+- HTMLHint … HTML Linter
+- jumpy … キーボード・ショートカット操作の拡張機能（デフォルトではショートカット未設定）
+
+## キーボード・ショートカットの設定・変更
+
+- cmd+k cmd+s の操作で、キーボード・ショートカットの管理画面が表示される
+- ショートカットを入力した場合は、入力したショートカットに他の割当がないか確認できる
+- 拡張機能名をいれると、機能が一覧表示されるので、希望する機能の[+]をクリックすると、ショートカットを設定できる
 
 ## PHP 開発環境構築
 
@@ -23,8 +37,15 @@ thread safe 版 php.exe をインストールする。
 
 ## 設定
 
+- hoge-fuga 形式の文字列をダブルクリックで選択できるようにする
+
 ```json
 "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+```
+
+- ファイル名の表示
+
+```json
 "window.title": "${dirty}${rootName}${separator}${activeEditorLong}",
 ```
 
