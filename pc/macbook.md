@@ -1,12 +1,19 @@
 # MacBook
 
-要件
+## 利点
+
+- OS 再インストールを気軽にできるところがよい
+  - SSD の区画を分けておけば、気軽に再インストールできる
+- バックアップ機能 TimeMachine がある
+- ディスク暗号化機能 FileVault がある
+
+## 要件
 
 - メモリ 8GB もしくは 16GB
 - SSD 256GB
 - SSD 交換できるモデル（ハードウェアに問題が起きた場合、ストレージを切り離せる）
 
-リンク
+## リンク
 
 - <https://kakaku.com/pc/mac-note-pc/itemlist.aspx>
 - <https://www.apple.com/jp/shop/refurbished/mac/macbook-pro>
