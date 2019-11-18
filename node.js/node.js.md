@@ -25,6 +25,7 @@ Hyper
 
 - macOS と Windows どちらでも使用できる
 - Windows では Windows のコマンドのみ使用できる
+- powerline を簡単に設定する拡張機能はない様子
 
 Cmder
 
