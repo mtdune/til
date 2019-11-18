@@ -46,7 +46,7 @@ Cmder での powerline インストール
 - _powerline_config.lua の `plc_prompt_lambSymbol` を `>` 記号に変更する
 - _powerline_config.lua の `plc_prompt_type` を `full` に変更する
 - 右下 Settings > General > Fonts > Main console font を `Source Code Pro for Powerline` に変更する
-- 右下 Settings > General > Fonts > Main console font > Bold にチェックに入れる
+- 右下 Settings > General > Fonts > Main console font > Bold にチェックに入れる（任意）
 - 右下 Settings > General > Fonts > Alternative fonr(pseudographics, CJK, etc.) を`Source Code Pro for Powerline` に変更する
 - `cmder¥vendor¥clink.lua` の `clink.prompt.register_filter` の hg_ git_ svn_ の行頭に -- をつけてコメントアウトする（若干速くなる）
 - <https://blog.mamansoft.net/2018/11/18/use-cmd-elegant-on-cmder-phase1/>
