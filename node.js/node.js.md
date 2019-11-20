@@ -25,7 +25,7 @@ Hyper
 
 - macOS と Windows どちらでも使用できる
 - Windows では Windows のコマンドのみ使用できる
-- powerline を簡単に設定する拡張機能はない様子
+- Powerline を簡単に設定する拡張機能はない様子
 
 Cmder
 
@@ -37,8 +37,9 @@ Cmder
 - `cmder¥vendor¥clink.lua` ファイルの `local lambda = "λ"` を `local lambda = ">"` に変更する
 - 右下 Settings > General > Fonts > Monospace のチェックを外して Save settings ボタンを押下する
 - 右下 Settings > Startup > Environment に `set LANG=ja_JP.UTF-8` を追加して Save settings ボタンを押下する
+- 起動時のカレントディレクトリの指定にはいくつか方法があるが Cmder のショートカットの作業フォルダに `D:¥scm` のように希望のディレクトリを記すとよい
 
-Cmder での powerline インストール
+Cmder での Powerline インストール
 
 - `cmder¥powerline¥` のようなディレクトリを作成する（どこでもよい）
 - `git clone --depth 1 https://github.com/AmrEldib/cmder-powerline-prompt`
