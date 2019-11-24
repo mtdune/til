@@ -5,6 +5,7 @@ Today I Learned.
 ## 個人での採択
 
 - 経済産業省 IT 事業採択経験 2 回
+- [Japan LawTech SOAR | Japan’s first Law Tech/Legal Tech Hackathon.](https://japanlawtechsoar.com/ja/) 優勝
 
 ## 個人開発
 
