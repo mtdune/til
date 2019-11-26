@@ -13,6 +13,8 @@
 - SSD 256GB
 - SSD 交換できるモデル（ハードウェアに問題が起きた場合、ストレージを切り離せる）
 
+メモリ 16GB の MacBook Air を希望する場合、既製品よりも Apple Store で BTO で増設したほうが安価。
+
 ## リンク
 
 - <https://kakaku.com/pc/mac-note-pc/itemlist.aspx>
@@ -24,3 +26,15 @@ Karabiner
 
 - <https://pqrs.org/osx/karabiner/>
 - App Store では公開されていない
+
+## MacBookAir5,1
+
+この機種をベンチマークにする。あとは retina モニタであれば、十分な気がする。
+
+- 機種 ID: MacBookAir5,1
+- プロセッサ名: Intel Core i5
+- プロセッサ速度: 1.7 GHz
+- メモリ: 8 GB
+- MacBook Air (11-inch, Mid 2012)
+- macOS Mojave 10.14.6
+- <https://support.apple.com/kb/SP650?locale=ja_JP>
