@@ -30,6 +30,8 @@ WinMerge でのサブフォルダ比較
 
 ### Windows ターミナル環境
 
+- 2019-12-05 現在開発中の Windows Terminal が本命では？
+
 試す
 
 - <https://cmder.net/>
