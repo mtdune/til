@@ -16,3 +16,7 @@
 ## スターバックスコーヒー
 
 - at_STARBUCKS_Wi2
+
+## 新宿
+
+- <https://freesworder.net/coworking-space-shinjuku/>
