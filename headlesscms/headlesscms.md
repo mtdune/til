@@ -11,6 +11,14 @@ strapi
 - The open source Headless CMS
 - 別途 node.js サーバが必要
 
+CI/CD
+
+- GitHub Actions
+
+CDN
+
+- Netlify
+
 その他
 
 - <https://graphcms.com/>
@@ -48,7 +56,7 @@ contentful の料金試算
 
 ## Import and Export
 
-production 環境のデータのバックアップや export したデータを operation 環境に import して同期をとりたい。
+contentful のデータは export と import が可能。なので production 環境のデータのバックアップや export したデータを operation 環境に import して同期をとれる。
 
 - <https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/>
 
