@@ -32,4 +32,21 @@ git init
 git config --local --list
 git config --local user.name foobarman
 git config --local user.email foobarman@example.com
+npm install sass-loader node-sass --save-dev
+npm run dev # Close is ctrl + c
+```
+
+## エラー対策
+
+`Module build failed: TypeError: this.getResolve is not a function`
+
+上記のエラーが表示される場合の対策
+
+- <https://qiita.com/gosairei1207/items/95454ec5a396bd5f05fd>
+- <https://shiranuik.hatenablog.jp/entry/2018/02/16/184551>
+
+npm install されたパッケージの確認
+
+```ShellScript
+npm ls --depth=0
 ```
