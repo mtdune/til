@@ -38,3 +38,7 @@ Karabiner
 - MacBook Air (11-inch, Mid 2012)
 - macOS Mojave 10.14.6
 - <https://support.apple.com/kb/SP650?locale=ja_JP>
+
+## 初期設定
+
+- <https://www.karakaram.com/how-to-automate-your-mac-set-up>
