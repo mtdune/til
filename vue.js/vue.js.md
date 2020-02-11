@@ -36,6 +36,10 @@ npm install sass-loader node-sass --save-dev
 npm run dev # Close is ctrl + c
 ```
 
+下記の URL で閲覧できる。
+
+`http://localhost:8080/#/`
+
 ## エラー対策
 
 `Module build failed: TypeError: this.getResolve is not a function`
