@@ -61,6 +61,7 @@ WSL: Windows Subsystem for Linux ベースにしたほうがよいかもしれ�
 - Google Chrome
 - Google IME
 - iTerm
+  - ステータスバーにパスや git ブランチを常時表示できるので Powerline 不要
 - Numbers
 - Pages
 - Parallels Client(VPN Client)
