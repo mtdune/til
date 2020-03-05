@@ -79,6 +79,7 @@ laravel インストーラで Problem が多発している。ひとつひとつ
 - <http://127.0.0.1:8000>
 - ctrl + c で停止
   - ctrl + c する前にターミナルを閉じた場合は `ps` でプロセスを探して kill する
+- インストーラではなく Laravel 本体のバージョンは `php artisan -V` で確認する
 
 次回の予定
 
@@ -87,3 +88,5 @@ laravel インストーラで Problem が多発している。ひとつひとつ
 - heroku の場合 PostgreSQL のほうが低料金のため MySQL から PostgreSQL に変更する
 - なにかチュートリアルを試す
 - docker と heroku の利用を調べる
+
+## ログ 2020-03-05
