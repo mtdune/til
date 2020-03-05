@@ -90,3 +90,63 @@ laravel インストーラで Problem が多発している。ひとつひとつ
 - docker と heroku の利用を調べる
 
 ## ログ 2020-03-05
+
+まず git init する。
+
+- `git init`
+- `git config --local --list`
+- `git add -A`
+- `git commit -m "First commit"`
+
+Laradock を使うほうがよいらしいので、再度やり直す。
+
+- <https://laradock.io/>
+
+Docker for Mac をインストールする
+
+- <https://hub.docker.com/editions/community/docker-ce-desktop-mac/>
+- 一度 Docker for Mac アプリを起動する
+- Docker for Mac はマウントが遅いため :cashed 指定してマウントする
+  - <https://www.to-mega-therion.net/docker/docker-mounted-volume-slow>
+  - マウントするタイミングがよくわからない
+  - Laradock に `APP_CODE_CONTAINER_FLAG=:cached` というデフォルト設定がある
+- `Bind for 0.0.0.0:8080 failed: port is already allocated` と表示され phpmyadmin コンテナの起動に失敗する
+- `docker ps` 起動しているコンテナを確認
+- `docker stop $(docker ps -q)` すべてのコンテナを終了する
+- `docker rm $(docker ps -q -a)` すべての停止しているコンテナを削除する
+- `docker images` 存在するイメージの一覧表
+- `docker rmi <IMAGE ID>` イメージ削除
+  - コンテナやイメージの一括操作
+  - <https://qiita.com/shisama/items/48e2eaf1dc356568b0d7>
+- `Bind for 0.0.0.0:8080 failed: port is already allocated` の件は `.env` ファイルの `PMA_PORT=8080` を `PMA_PORT=8081` に変更したら起動した
+  - `docker-compose.yml` を直接編集しないほうがよい
+- `docker-compose exec workspace bash`
+- `composer create-project --prefer-dist laravel/laravel ./`
+- `cd ../src/`
+- `vi .env` 下記を変更する
+
+```Bash
+DB_HOST=mysql
+DB_DATABASE=default
+DB_USERNAME=default
+DB_PASSWORD=secret
+```
+
+- `cd ../laradock` して一度止める `docker-compose stop`
+- `docker-compose up -d nginx mysql phpmyadmin` 再起動
+- ブラウザに `localhost` で Laravel の起動を確認できる
+- `.env` で指定した `http://localhost:8081/` で phpMyAdmin を表示できる
+
+MySQL のコンテナがすぐに落ちる問題。
+
+- `Exited (2) 4 minutes ago`
+- `docker ps -a`
+- `docker rm <CONTAINER ID>`
+- `docker images`
+- `docker rmi <IMAGE ID>`
+- `docker volume ls`
+- `docker volume rm <VOLUME NAME>`
+
+すべてのイメージ削除
+
+- `docker rmi $(docker images -q)`
