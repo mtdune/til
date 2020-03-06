@@ -151,3 +151,11 @@ MySQL のコンテナがすぐに落ちる問題。
 
 - `docker rmi $(docker images -q)`
 - コンテナ、イメージをすべて消して再度 up してみたが mysql がすぐに落ちる
+
+## ログ 2020-03-06
+
+MySQL のバージョンが 8.0 の場合はすぐに落ちるとのこと。
+
+- <https://qiita.com/don-bu-rakko/items/cd8f96cc9087abf601e3>
+- `.env` ファイルを 5.7 に修正しても `rm -rf ~/.laradock/data/mysql` しないと、キャッシュを読み込んでしまうので 5.7 にならない！
+- 何回か `docker ps -a` しても MySQL は Exit していないことがわかる
