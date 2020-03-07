@@ -1,5 +1,9 @@
 # PC Setup
 
+## モニタ
+
+- [あなたのテレビは遅れてませんか？ 知っておきたい "遅延" の話](https://av.watch.impress.co.jp/docs/series/dg/1236788.html)
+
 ## モバイル PC
 
 - メモリ 8GB
