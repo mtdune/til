@@ -181,3 +181,9 @@ git config user.email foobar@example.com
 git config user.name foobar
 git clone https://github.com/foobar/foo.git
 ```
+
+## unmerged なファイルがある場合
+
+- `git status` して `git diff` で unmerged なファイルを見つける
+- そのファイルを VSCode で開くと、差分をどうするか選択が表示されているので、選択する
+- `git add` して commit すれば push できる
