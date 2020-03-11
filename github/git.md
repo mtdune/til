@@ -15,10 +15,12 @@ git config user.name foobar
 git config --local --list
 git add -A
 git status
-git commit -m 'first commit'
+git commit -m 'First commit'
 git remote add origin https://github.com/foobar/repo.git
 git push -u origin master
 ```
+
+- push を拒否された場合は `git merge --allow-unrelated-histories origin/master` してから push すれば OK
 
 ## ファイル名に大文字小文字が混在したファイルの扱い
 
