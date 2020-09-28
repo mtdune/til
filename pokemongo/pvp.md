@@ -1,5 +1,11 @@
 # PvP Battle
 
+## パーティ候補
+
+- 砦草草
+- ムドー、テング、メガニウム
+- マリルリ、ヤミラミ、アローラ・ガラガラ
+
 ## まろん杯
 
 - <https://pvp.hatenablog.jp/entry/great-league-ranking-201905>
