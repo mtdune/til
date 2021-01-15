@@ -95,3 +95,18 @@ echo $ap_name
 
 - ルーターの PPTP を有効にする
 - ルーターの IPsec を有効にする
+
+## 障害 2020-11-30
+
+macOS は VPN に接続できるが Parallels Client で Windows に接続できない場合
+
+- macOS のネットワーク環境設定に表示される IP アドレスは関係ない（すでに接続されている）
+- Windows 側の IP が変わっていることが多い（普段はほとんど変更されない）
+
+手順
+
+- Windows 側のタスクバーの検索ボックスに dos と入力して「コマンドプロンプト」を表示させる
+- 右クリックで管理者として「コマンドプロンプト」を実行する
+- ipconfig と入力して Enter キーを押下する
+- 「不明なアダプター VPN - VPN Client: 」の IP アドレスを確認する
+- 上記の IP アドレスを macOS の Parallels Client に入力する
