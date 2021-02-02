@@ -4,7 +4,7 @@
 
 ## 公式ドキュメント
 
-- https://docs.microsoft.com/ja-jp/windows/terminal/
+- <https://docs.microsoft.com/ja-jp/windows/terminal/>
 
 ## 外観
 
@@ -33,14 +33,14 @@
 
 - Windows Update で Windows 10 を最新の状態にする
 - dism.exe と sfc /scannow で Windows の状態を調べる
-  - https://onoredekaiketsu.com/repair-windows-with-dism-and-sfc-scannow/
+  - <https://onoredekaiketsu.com/repair-windows-with-dism-and-sfc-scannow/>
 - Powershell を最新の stable 版もしくは LTS 版に更新する
-  - https://github.com/PowerShell/PowerShell
+  - <https://github.com/PowerShell/PowerShell>
 
 ## SSH できない場合
 
 - Windows 10 管理画面で OpenSSH クライアントが入っていることを確認する
-  - https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/
+  - <https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/>
   - 設定 → アプリ → オプション機能
 - ssh.exe の有無を調べる
   - `dir C:\Windows\System32\OpenSSH\ssh.exe`
