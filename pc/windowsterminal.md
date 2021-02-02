@@ -2,6 +2,27 @@
 
 - 環境 Windows 10 Pro
 
+## 公式ドキュメント
+
+- https://docs.microsoft.com/ja-jp/windows/terminal/
+
+## 外観
+
+- 文字サイズのリセット `ctrl + 0`
+
+## 画面分割ペインの操作
+
+- 画面分割（ペイン）
+  - 垂直方向 `alt + shift + plus`
+  - 水平方向 `alt + shift + -`
+  - サイズ変更 `alt + shift + 方向キー`
+- 画面分割（ペイン）を閉じる
+  - `ctrl + shift + w`
+- ペインの移動
+  - `alt + 方向キー`
+- ペインの複製
+  - `alt + shift + d`
+
 ## Windows Terminal を起動できない場合
 
 私の場合、下記のエラーが発生して Windows Terminal を起動できない状態になりました。
@@ -33,6 +54,7 @@
 
 - よくある、ショートカットで powershell 経由のパスに変更する方法はエラーで実現できず
 - Windows Terminal の設定ファイルでショートカットを追加する方法がよい（さきに SSH 接続できる状態にする）
+- どのサーバに接続しているかわかるように `colorScheme` か `background` を変更したほうがよい（必ず間違えるため）
 
 ```,
             {
