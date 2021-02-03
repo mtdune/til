@@ -110,3 +110,8 @@ macOS は VPN に接続できるが Parallels Client で Windows に接続でき
 - ipconfig と入力して Enter キーを押下する
 - 「不明なアダプター VPN - VPN Client: 」の IP アドレスを確認する
 - 上記の IP アドレスを macOS の Parallels Client に入力する
+
+## 障害 2021-02-03
+
+- VPN に接続できない場合 VPN サーバを再起動する
+- VPN に接続できる状態になったが Parallels Client で Windows に接続できない場合、クライアント側を再起動する
