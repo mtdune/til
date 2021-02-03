@@ -113,5 +113,6 @@ macOS は VPN に接続できるが Parallels Client で Windows に接続でき
 
 ## 障害 2021-02-03
 
+- クライアントからサーバへの ping XXX.XXX.XXX.XXX は 100% timeout する状態
 - VPN に接続できない場合 VPN サーバを再起動する
 - VPN に接続できる状態になったが Parallels Client で Windows に接続できない場合、クライアント側を再起動する
