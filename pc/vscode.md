@@ -52,3 +52,13 @@ thread safe 版 php.exe をインストールする。
 ## Remote Development
 
 - <https://www.publickey1.jp/blog/19/visual_studio_code_135remote_development.html>
+
+## ワークスペースが再利用されない件
+
+- 基本的に macOS 版では cmd + , で restore を検索して下記の設定を all としておけばよい
+- Windows 版と macOS 版との違いとして Windows 版ではウィンドウを閉じれば、アプリケーション終了状態になるが macOS 版では終了状態にならないので window.restoreWindows の設定が効かない
+- window.restoreWindows の設定を活かすためにはウィンドウを閉じるだけでなく cmd + q で vscode ごと落とす
+
+```json
+"window.restoreWindows": "all"
+```
