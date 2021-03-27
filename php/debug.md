@@ -21,3 +21,20 @@ error_log('foo', 3, './log/log.txt'); // 実行する PHP ファイル以下に�
 ```BASH
 tail -f log.txt | grep --line-buffered "FOOBAR"
 ```
+
+## ログの設置
+
+- 正常な経路よりも異常な経路に注目する
+- if などの制御構文の分岐箇所
+- ファイルの書き込みがある場合は、保存ディレクトリやファイルの有無、パーミッションにも注意する
+- 一連の処理の開始と終了箇所に `---` を出力すると、わかりやすい
+- 再現性が低く、人によって再現する場合は IP アドレスや BASIC 認証の名前 `$_SERVER['PHP_AUTH_USER']` を出力する
+- `date(DATE_ATOM)` を使用するとよい
+- ある程度、問題ない場合はログの出力を中止する
+
+例
+
+```PHP
+date_default_timezone_set('Asia/Tokyo');
+error_log(date(DATE_ATOM) .':'. {$value}, 3, './log.txt');
+```
