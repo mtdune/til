@@ -1,5 +1,20 @@
 # PvP Battle
 
+## YouTuber
+
+順不同。
+
+- ぷんきち
+  - <https://www.youtube.com/channel/UC164W3UP8nmkR1kUEh4ZdiA/videos>
+- ここ丸
+  - <https://www.youtube.com/c/%E3%81%93%E3%81%93%E4%B8%B8/videos>
+- ほぺざわ
+  - <https://www.youtube.com/channel/UCf-2vbMS0mYh5saMwBFc2YA/videos>
+- ゆふいん
+  - <https://www.youtube.com/channel/UCcfXhMZEUi89fCLyI5zV5rA/videos>
+- 海外 PvP 系 YouTuber
+  - <https://www.pokebattler.com/pvp>
+
 ## パーティ候補
 
 - 砦草草
