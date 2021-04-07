@@ -2,16 +2,18 @@
 
 ## YouTuber
 
-順不同。
+順不同。敬称略。
 
 - ぷんきち
   - <https://www.youtube.com/channel/UC164W3UP8nmkR1kUEh4ZdiA/videos>
 - ここ丸
   - <https://www.youtube.com/c/%E3%81%93%E3%81%93%E4%B8%B8/videos>
+  - エルフーン、ガラマ、タチフサグマ
 - ほぺざわ
   - <https://www.youtube.com/channel/UCf-2vbMS0mYh5saMwBFc2YA/videos>
 - ゆふいん
   - <https://www.youtube.com/channel/UCcfXhMZEUi89fCLyI5zV5rA/videos>
+  - デオキシス（サイブ・岩雪崩）、ブラッキー、マリルリ（冷ビ・じゃれつく）
 - 海外 PvP 系 YouTuber
   - <https://www.pokebattler.com/pvp>
 
