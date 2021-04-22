@@ -38,3 +38,28 @@ tail -f log.txt | grep --line-buffered "FOOBAR"
 date_default_timezone_set('Asia/Tokyo');
 error_log(date(DATE_ATOM) .':'. {$value}, 3, './log.txt');
 ```
+
+## grep
+
+- ローカルにあるファイルは、どのように grep をかけても問題ない
+- サーバにあるファイルを直接 grep する際は、注意して操作する
+
+1. Windows Terminal を alt + shift + d で分割表示する
+1. 画面 1 では top コマンドを常時表示して、負荷を計測する
+1. 画面 2 で grep する
+
+```BASH
+nice -n 19 grep -lr 'hoge' ./
+```
+
+備考
+
+- top コマンドの load average は CPU のコア数まではおおよそ問題ないとのこと
+  - 物理 CPU やコア数を知るには下記の方法がある
+  - <http://tamatt.blog.fc2.com/blog-entry-3.html>
+
+プロセスを終わらせる場合
+
+```BASH
+kill プロセス番号
+```
