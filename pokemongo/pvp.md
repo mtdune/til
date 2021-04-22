@@ -16,6 +16,12 @@
   - デオキシス（サイブ・岩雪崩）、ブラッキー、マリルリ（冷ビ・じゃれつく）
 - 海外 PvP 系 YouTuber
   - <https://www.pokebattler.com/pvp>
+- <https://www.youtube.com/channel/UCEf3CCL4eYsojF7mN_oswTg/videos>
+  - アローラ・キュウコン、チャーレム、ブルンゲル
+- <https://www.youtube.com/channel/UCJo2LzLvfcV-B9PiSp76iWg/videos>
+  - メルメタル、ペリッパー、チルタリス
+- <https://www.youtube.com/channel/UCnJspwYS13Bht8lTSSNVz_g/videos>
+  - エンペルト、チルタリス、バルジーナ
 
 ## パーティ候補
 
