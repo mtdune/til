@@ -4,6 +4,8 @@
 
 順不同。敬称略。
 
+- 海外 PvP 系 YouTuber
+  - <https://www.pokebattler.com/pvp>
 - ぷんきち
   - <https://www.youtube.com/channel/UC164W3UP8nmkR1kUEh4ZdiA/videos>
 - ここ丸
@@ -14,14 +16,22 @@
 - ゆふいん
   - <https://www.youtube.com/channel/UCcfXhMZEUi89fCLyI5zV5rA/videos>
   - デオキシス（サイブ・岩雪崩）、ブラッキー、マリルリ（冷ビ・じゃれつく）
-- 海外 PvP 系 YouTuber
-  - <https://www.pokebattler.com/pvp>
-- <https://www.youtube.com/channel/UCEf3CCL4eYsojF7mN_oswTg/videos>
+- 生き物図鑑
+  - <https://www.youtube.com/channel/UCEf3CCL4eYsojF7mN_oswTg/videos>
   - アローラ・キュウコン、チャーレム、ブルンゲル
-- <https://www.youtube.com/channel/UCJo2LzLvfcV-B9PiSp76iWg/videos>
+- こぐまのちゃんねる
+  - <https://www.youtube.com/channel/UCJo2LzLvfcV-B9PiSp76iWg/videos>
   - メルメタル、ペリッパー、チルタリス
-- <https://www.youtube.com/channel/UCnJspwYS13Bht8lTSSNVz_g/videos>
+- HASEMON チャンネル
+  - <https://www.youtube.com/channel/UCnJspwYS13Bht8lTSSNVz_g/videos>
   - エンペルト、チルタリス、バルジーナ
+- はるきち / TRIP ん
+  - <https://www.youtube.com/channel/UCr2JtslTIeA7FyWBp8LknCA/videos>
+- なつごん
+  - <https://www.youtube.com/channel/UC98oD-aMBlzEo6Vd1_Zwi-w/videos>
+  - ニャイキング、シャドウ・ラグラージ、ニョロトノ
+- タッちゃんねる
+  - <https://www.youtube.com/c/%E3%82%BF%E3%83%83%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B/videos>
 
 ## パーティ候補
 
