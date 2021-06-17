@@ -64,3 +64,7 @@
                 "icon": "C:\\Users\\foo\\Documents\\ssh\\favicon.png",
             }
 ```
+
+設定ファイルのパス
+
+- [設定] > [JSON ファイルを開く]
