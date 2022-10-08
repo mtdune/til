@@ -61,6 +61,15 @@ ta クレセリア 1ED SCP HL 5 位 PL20 CP1487 → PL37 CP2492
 - 技開放 砂 -100000 + アメ -100
 - 初手ガオガエン、クレセリア、シャドウ・ラグラージの構築
 
+## 2022-10-08
+
+met バシャーモ FFF CP1220 PL15 → PL31 CP2482
+
+- 強化 砂 -106400 + アメ -94
+- メガエナジー獲得時のアメ XL 目的
+- メガバシャーモは DPS(Damage Per Second) TDO(Total Damage Output) ともにメガヘラクロスを上回っている
+  - <https://pokemongo-get.com/counterlist/>
+
 ## 2022-10-07
 
 ta ミミロップ FFF CP1177 PL20 → PL31 CP1795
