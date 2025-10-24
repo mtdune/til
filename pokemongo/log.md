@@ -120,6 +120,14 @@ met ラグラージ FFF CP2974 PL40 → PL50 CP3362
 - met ガブリアス FFF CP → PL50 CP
 - met サザンドラ CP → PL50 CP
 
+## 2025-10-18
+
+ta オリジン・パルキア Lucky FFE PL CP2361 → PL CP3542
+
+- 強化 砂 -37500 + アメ -66
+- 強化 20/20 回
+- Pokemon Legends Z-A タイムチャレンジ 2/3
+
 ## 2025-10-16
 
 ta カイオーガ FFF PL CP3616 → PL40 CP4115
