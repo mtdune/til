@@ -120,6 +120,13 @@ met ラグラージ FFF CP2974 PL40 → PL50 CP3362
 - met ガブリアス FFF CP → PL50 CP
 - met サザンドラ CP → PL50 CP
 
+## 2025-10-26
+
+bl レックウザ FFF PL CP3287 → PL38 CP3725
+
+- 強化 砂 -112000 + アメ -128
+- ギラティナ・アナザー対策
+
 ## 2025-10-25
 
 ta キュレム Lucky FFE PL CP2038 → PL CP2548
